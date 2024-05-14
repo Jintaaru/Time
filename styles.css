@@ -1,0 +1,315 @@
+
+
+.Header {
+
+
+    display: flex;
+
+    justify-content: space-between;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+}
+
+
+
+#Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#Navbar a {
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+#Cart-icon {
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+#Navbar a:hover,
+#Navbar a.active {
+    color: #6E8898;
+}
+
+#Navbar a:active::after,
+#Navbar a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #6E8898;
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+}
+
+#Cart-icon:hover,
+#Cart-icon.active {
+    color: #6E8898;
+}
+
+#Cart-icon:active::after,
+#Cart-icon:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #6E8898;
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), #465b52);
+
+
+}
+
+footer .Col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+
+}
+
+footer .Col h4 {
+    color: black;
+
+}
+
+footer .footer_logo {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-right: 50px;
+
+}
+
+footer a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 13px
+}
+
+
+
+footer .follow i {
+    color: white;
+    padding-right: 6px;
+    cursor: pointer;
+    font-size: 25px;
+}
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+.Apps_pay h4 {
+    color: black;
+}
+
+
+
+.icon {
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.row img {
+    border: 1px solid var(--text-color);
+    border-radius: 6px;
+
+}
+
+.Apps_pay img {
+    margin: 1px 0 1px 0;
+    border: 1px solid var(--text-color);
+    border-radius: 6px;
+
+}
+
+.Index {
+    margin-top: -5px;
+}
+
+.contact_empty {
+    height: 41px;
+}
+
+/* Contact*/
+#Contact_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+#Contact_details .details {
+    width: 40%;
+    margin: 70px;
+}
+
+#Contact_details .details span {
+    font-size: 16px;
+}
+
+#Contact_details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+
+}
+
+#Contact_details .details h3 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+#Contact_details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#Contact_details .details li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#Contact_details .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#Contact_details .map {
+    width: 55%;
+    height: 360px;
+    margin-right: 20px;
+}
+
+#Contact_details .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#Form form {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    border: 1px solid #1a1a1a;
+}
+
+
+#Form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    margin-right: 60px;
+}
+
+.peopleBody {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    padding: 80px;
+
+}
+
+#Form input,
+#Form textarea {
+    width: 70%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #1a1a1a;
+}
+
+.submit {
+    background-color: #088178;
+    color: #fff;
+    height: 70px;
+    width: 200px;
+    margin-bottom: 2px;
+    border-radius: 6px;
+
+}
+
+#Form .people {
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+
+
+
+}
+
+#Form .people img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+
+#Form .people p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#Form .people p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+
+#banner {
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    background-image: url("Images/Banner.png");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+    
