@@ -106,10 +106,11 @@
   text-decoration: none;
 }
 
-.navbar button a{
-text-decoration: none;
-color: white;
- }
+.navbar button a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar button {
   width: 70px;
   border-radius: 2px;
@@ -208,5 +209,94 @@ button[type="submit"]:hover {
   border: red 4px;
 }
 
+/* Container for forms */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Adjust as needed */
+}
 
+/* Styles for Add User Form */
+.add-user-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+  /* Adjust color */
+}
 
+.add-user-form {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  /* Adjust background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Adjust box shadow */
+}
+
+.username-label,
+.password-label,
+.email-label,
+.user-id-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  /* Adjust color */
+}
+
+.username-input,
+.password-input,
+.email-input,
+.user-id-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-user-button,
+.delete-user-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-user-button:hover,
+.delete-user-button:hover {
+  background-color: black;
+}
+
+/* Styles for Delete User Form */
+.delete-user-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+  /* Adjust color */
+}
+
+.delete-user-form {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  /*  background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /*  box shadow */
+}
+#return_admin {
+  text-decoration: none;
+  color: black;
+  
+}
+
+#return_admin:hover {
+  color: #555;
+}
