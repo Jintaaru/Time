@@ -93,7 +93,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
         <div id='calendar'></div>
 
-        <!-- Edit Meeting Form -->
+        <!-- Edit Meeting Formx -->
         <div id="editMeetingModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
